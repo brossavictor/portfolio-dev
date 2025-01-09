@@ -36,9 +36,9 @@
 	--text-sm: 600 14px/140% var(--maven);
 }
 
-/* body {
+body {
 	background: var(--gray-200);
-} */
+}
 
 h1,
 h2,
