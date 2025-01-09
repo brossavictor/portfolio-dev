@@ -35,3 +35,13 @@
 	--text-md: 600 16px/140% var(--maven);
 	--text-sm: 600 14px/140% var(--maven);
 }
+
+/* body {
+	background: var(--gray-200);
+} */
+
+h1,
+h2,
+h3 {
+	color: var(--gray-600);
+}

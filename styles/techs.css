@@ -1,0 +1,40 @@
+#profile {
+	.tech-icons {
+		div:nth-child(1) {
+			img {
+				color: var(--gray-500);
+			}
+		}
+		div:nth-child(2) {
+			img {
+				color: var(--red);
+			}
+		}
+		div:nth-child(3) {
+			img {
+				color: var(--blue);
+			}
+		}
+		div:nth-child(4) {
+			img {
+				color: var(--yellow);
+			}
+		}
+		div:nth-child(5) {
+			img {
+				color: var(--blue);
+			}
+		}
+		div:nth-child(6) {
+			img {
+				color: var(--green);
+			}
+		}
+
+		div {
+			img {
+				margin-left: 16px;
+			}
+		}
+	}
+}
