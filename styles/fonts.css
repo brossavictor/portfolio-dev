@@ -1,0 +1,45 @@
+h1,
+h2,
+h3 {
+	color: var(--gray-600);
+}
+
+h2 {
+	font: var(--title-md);
+}
+
+h3 {
+	font: var(--title-sm);
+}
+
+p {
+	color: var(--gray-500);
+	font: var(--text-sm);
+}
+
+.subtitle {
+	font: var(--subtitle);
+}
+
+.title {
+	&,
+	large {
+		font: var(--title-lg);
+	}
+
+	&.medium {
+		font: var(--title-md);
+	}
+
+	&.small {
+		font: var(--title-sm);
+	}
+}
+
+.highlight {
+	color: var(--red);
+}
+
+.text {
+	color: var(--gray-500);
+}
