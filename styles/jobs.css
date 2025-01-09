@@ -1,0 +1,32 @@
+#jobs {
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		margin-top: 72px;
+		margin-bottom: 56px;
+	}
+
+	figure {
+		background: var(--gray-300);
+		border-radius: 8px;
+
+		width: 330px;
+		height: 280px;
+
+		img {
+			border-radius: 8px;
+
+			margin: 12px;
+
+			width: 306px;
+			height: 156px;
+		}
+	}
+
+	figcaption {
+		margin-inline: 12px;
+	}
+}

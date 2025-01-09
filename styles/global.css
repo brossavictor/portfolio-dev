@@ -20,28 +20,75 @@
 	--gray-500: #c0c4c3;
 	--gray-600: #e2e4e9;
 
+	/* background */
+	--background-color: #16181d;
+
 	/* fonts */
 	--asap: "Asap", sans-serif;
 	--inconsolata: "Inconsolata", sans-serif;
 	--maven: "Maven Pro", sans-serif;
 
 	/* font sizes */
-	--title-lg: 800 56px/120% var(--asap);
-	--title-md: 800 24px/120% var(--asap);
-	--title-sm: 800 16px/120% var(--asap);
+	--title-lg: 700 56px/120% var(--asap);
+	--title-md: 600 24px/120% var(--asap);
+	--title-sm: 500 16px/120% var(--asap);
 
-	--subtitle: 600 20px/120% var(--inconsolata);
+	--subtitle: 400 20px/120% var(--inconsolata);
 
-	--text-md: 600 16px/140% var(--maven);
-	--text-sm: 600 14px/140% var(--maven);
+	--text-md: 400 16px/140% var(--maven);
+	--text-sm: 400 14px/140% var(--maven);
 }
 
 body {
-	background: var(--gray-200);
+	background: var(--background-color);
 }
 
 h1,
 h2,
 h3 {
 	color: var(--gray-600);
+}
+
+h2 {
+	font: var(--title-md);
+}
+
+h3 {
+	font: var(--title-sm);
+}
+
+p {
+	color: var(--gray-500);
+	font: var(--text-sm);
+}
+
+.subtitle {
+	font: var(--subtitle);
+}
+
+.title {
+	&,
+	large {
+		font: var(--title-lg);
+	}
+
+	&.medium {
+		font: var(--title-md);
+	}
+
+	&.small {
+		font: var(--title-sm);
+	}
+}
+
+.highlight {
+	color: var(--red);
+}
+
+.text {
+	color: var(--gray-500);
+}
+
+.grid {
+	grid-row: auto;
 }
